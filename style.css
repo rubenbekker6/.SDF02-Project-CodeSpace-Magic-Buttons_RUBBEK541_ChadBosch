@@ -1,0 +1,101 @@
+body {
+    background-color: #DAD7CD;
+    margin: 0;
+    padding: 0px 0px 500px 0px;
+    font-family: 'Lato', sans-serif;
+}
+
+/*Website Text Containers Starts here*/
+.welcome-msg {
+    margin-top: 0px;
+    text-align: center;
+    position: relative;
+    bottom: 600px;
+    text-shadow: 0px 0px 15px whitesmoke; 
+}
+
+.welcome-msg-p {
+    /* margin-bottom: 100px; */
+    position: relative;
+    text-align: center;
+    /* This bottom property is not getting accounted for, the h1 above's value is getting priority, why is that? */
+    bottom: 600px;
+    text-shadow: 0px 0px 15px whitesmoke; 
+}
+/*Website Text Containers Ends here*/
+
+/* Parent Container of all the Buttons  */
+.scorecard {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+/* QUESTION: How do I optimise an image to automatically scale to the users screen size */
+.banner {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    height: auto;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    object-fit:cover;
+    border-bottom: 6px solid black;
+}
+
+/* Basic Styling for Buttons Start here
+    For the gradients, I used a tool cssgradient.io
+*/
+.btn-01 {
+    width: 120px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    background: rgb(2,0,36);
+    background: linear-gradient(169deg, rgba(2,0,36,1) 0%, rgba(58,90,64,1) 50%, rgba(163,177,138,1) 100%);
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+.btn-02 {
+    width: 120px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    background: rgb(42,46,44);
+    background: linear-gradient(0deg, rgba(42,46,44,1) 20%, rgba(52,78,65,1) 64%, rgba(24,28,26,1) 95%);    
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+.btn-03 {
+    width: 120px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    background: #A3B18A;
+    cursor: pointer;
+}
+
+.btn-04 {
+    width: 120px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    background: rgb(89,41,19);
+    background: linear-gradient(0deg, rgba(89,41,19,1) 20%, rgba(159,77,38,1) 64%, rgba(159,77,38,1) 95%);
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+/* Button Hover Animations start here */
+
+.btn-01:hover {
+    color: black;
+    background: transparent;
+     box-shadow:none;
+  }
+  
+
+
